@@ -1,7 +1,28 @@
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 200px;
-    margin: 0;
-    padding: 0;
+*{
+    margin: 5px;
+    padding:5px;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+
+:root{
+    --background-color:#16181D;
+    --text-color-primary: #F1F5F9;
+
+    --h1: 800 24px/135% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-small: 400 14px/140% var(--font-family);
+
+
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: var(--text);
+
+    color: var(--text-color-primary);
 }
