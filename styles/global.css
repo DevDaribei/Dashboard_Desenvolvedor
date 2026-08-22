@@ -9,6 +9,7 @@
 :root{
     --background-color:#0A0F1E;
     --text-color-primary: #F1F5F9;
+    --back-color: #2d2a2f;
 
     --h1: 800 24px/135% var(--font-family);
     --h2: 800 16px/140% var(--font-family);
@@ -21,23 +22,28 @@
 }
 
 body{
-    background-color: var(--background-color);
+    
     font-family: var(--text);
 
     color: var(--text-color-primary);
+
+    background-color: var(--back-color);
+
+
+    max-width: auto;
+    align-items: center;
 }
 
 .container {
     display: flex;
     align-items: center;
     list-style: none;
-    border: 1px solid #00d1ff;
-   
-    border-radius: 10px;
+    background-color: var(--background-color);
+  
     justify-content: space-between;
     
     max-width: auto;
-    margin: 5px 5px auto;
+    margin: auto;
     padding: 10px 20px;
     
 }
