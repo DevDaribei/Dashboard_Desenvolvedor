@@ -1,6 +1,22 @@
 .sidebar{
-    margin:  0px ;
-    padding: 10px 20px;
-    background-color: #0A0F1E;
-    width: 60px;    
+    
+    
+    background-color: #080d1c;
+    width: 70px;
+    overflow: hidden;
+    min-height: calc(100vh - 64px);
+
+    transition: width 0.3s ease;
+     
 }
+
+.sidebar ul{
+    list-style: none;
+    margin: 0;
+}
+
+.sidebar:hover{
+    width: 200px;
+}
+
+
