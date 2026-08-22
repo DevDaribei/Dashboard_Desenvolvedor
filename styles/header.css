@@ -12,12 +12,14 @@ header nav ul{
 header nav ul img{
         
         border-radius: 32px;
-    }
-
+        
+}
 header nav a{
         text-decoration: none;
         color: var(--text-color-primary);
-       
+        font-size: var(--text-span);
+        margin-left: 50px;
+        margin-right: 50px;       
 }
     
     
