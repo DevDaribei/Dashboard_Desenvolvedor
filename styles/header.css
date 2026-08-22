@@ -1,4 +1,4 @@
-header nav ul{
+.container {
     display: flex;
     align-items: center;
     list-style: none;
@@ -18,13 +18,35 @@ header nav ul{
 }
 
 
-header nav a{
+.links {
+        
+        color: var(--text-color-primary);
+        font-size: var(--text-span);
+        align-items: center;
+        display: flex;
+
+        
+}
+
+.links a {
+        
         text-decoration: none;
         color: var(--text-color-primary);
         font-size: var(--text-span);
-        margin-left: 50px;
-        margin-right: 50px; 
+        gap:10px;
+        margin: 0px 50px;
+        
+}
 
+.links a:hover {
+        color: #00d1ff;
+}
+
+.links img{
+    border:solid 1px #00d1ff;
+    border-radius: 16px;
+    width: 110px;
+    
 }
         
     
