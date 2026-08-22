@@ -26,3 +26,19 @@ body{
 
     color: var(--text-color-primary);
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border: 1px solid #00d1ff;
+   
+    border-radius: 10px;
+    justify-content: space-between;
+    
+    max-width: auto;
+    margin: 5px 5px auto;
+    padding: 10px 20px;
+    
+}
+    
