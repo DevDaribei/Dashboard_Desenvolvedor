@@ -1,7 +1,24 @@
-nav ul{
+header nav ul{
     display: flex;
+    align-items: center;
     list-style: none;
-    gap: 200px;
-    margin: 0;
-    padding: 0;
+    border: 1px solid #00d1ff;
+    margin: 2px;
+    border-radius: 32px;
+    justify-content: space-between;
+    padding: 10px 10px 10px;
 }
+
+header nav ul img{
+        
+        border-radius: 32px;
+    }
+
+header nav a{
+        text-decoration: none;
+        color: var(--text-color-primary);
+       
+}
+    
+    
+    

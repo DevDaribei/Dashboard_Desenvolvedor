@@ -1,13 +1,13 @@
 *{
-    margin: 5px;
-    padding:5px;
+    margin: 0px;
+    padding:0px;
     box-sizing: border-box;
-    justify-content: center;
+    
     
 }
 
 :root{
-    --background-color:#16181D;
+    --background-color:#0A0F1E;
     --text-color-primary: #F1F5F9;
 
     --h1: 800 24px/135% var(--font-family);
