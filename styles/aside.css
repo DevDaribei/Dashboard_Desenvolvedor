@@ -19,4 +19,18 @@
     width: 200px;
 }
 
+.sidebar a{
+    color: var(--text-color-primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    
 
+}
+.sidebar img{
+    width: 45px;
+    height: 45px;
+    
+}
