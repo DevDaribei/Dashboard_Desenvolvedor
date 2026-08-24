@@ -34,3 +34,7 @@
     height: 45px;
     
 }
+
+.sidebar a:hover{
+    color: #00d1ff;
+}

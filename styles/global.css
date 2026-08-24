@@ -7,9 +7,9 @@
 }
 
 :root{
-    --background-color:#0A0F1E;
+    --background-color:#0a0f1e;
     --text-color-primary: #F1F5F9;
-    --back-color: #ffffff;
+    --back-color: #4b4949;
 
     --h1: 800 24px/135% var(--font-family);
     --h2: 800 16px/140% var(--font-family);
