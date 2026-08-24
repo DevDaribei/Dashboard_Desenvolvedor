@@ -38,3 +38,6 @@
 .sidebar a:hover{
     color: #00d1ff;
 }
+.sidebar a:hover{
+    background:rgba(0,209,255,.08);
+}
