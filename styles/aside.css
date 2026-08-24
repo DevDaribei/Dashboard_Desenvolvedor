@@ -40,4 +40,5 @@
 }
 .sidebar a:hover{
     background:rgba(0,209,255,.08);
+    border-radius: 24px;
 }
