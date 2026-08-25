@@ -5,3 +5,12 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.stats {
+    display: grid;
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+}
