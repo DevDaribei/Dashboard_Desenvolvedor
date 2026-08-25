@@ -53,3 +53,7 @@ body{
     grid-template-columns: 70px 1fr;
     
 }
+
+.layout:has(.sidebar:hover) {
+    grid-template-columns: 220px 1fr;
+}
