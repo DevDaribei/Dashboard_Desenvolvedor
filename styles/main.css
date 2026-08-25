@@ -8,9 +8,14 @@
 
 .stats {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 64px;
+    margin-left: 32px;
 }
 
 .stat-card {
     display: flex;
     flex-direction: column;
+
 }
